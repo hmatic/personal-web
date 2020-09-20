@@ -1,0 +1,22 @@
+{{ with $.Site.Params.homeInfoParams }}
+<article class="first-entry">
+    <header class="entry-header">
+        <h2>{{ .Title }}</h2>
+    </header>
+    <section class="entry-content">
+        <audio id="player" src="/name-prounounciation.ogg"></audio>
+        <p style="margin-bottom: 6px;">
+          I'm <b>Hrvoje Matić</b> (<button onclick="document.getElementById('player').play()">pronounce my name</button>), software engineer from Croatia.
+        </p>
+        <p>{{ .Content | markdownify }}</p>
+        <p style="margin-top:10px">Find me online:</p>
+    </section>
+    <footer class="entry-footer">
+        {{- with $.Site.Params.socialIcons }}
+        <div class="social-icons">
+            {{ partial "social-icons.html" . }}
+        </div>
+        {{- end }}
+    </footer>
+</article>
+{{end}}

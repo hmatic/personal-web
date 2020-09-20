@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ if (and .Site.Params.profileMode.enabled .IsHome) }}
+{{- partial "indexProfile.html" . }}
+{{else if (.IsHome) }}
+{{- partial "home.html" . }}
+{{else}} {{/* if not profileMode */}}
+{{- partial "blog.html" . }}
+{{end}}{{/* end profileMode */}}
+{{ end  }}{{/* end main */}}
