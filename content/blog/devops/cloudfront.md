@@ -1,7 +1,7 @@
 ---
 title: "Enhancing CloudFront with AWS Lambda@Edge superpowers"
 date: 2020-09-17T19:53:26+02:00
-draft: false
+draft: true
 cover: "/cityheader3.jpg"
 categories:
 - "Devops"
