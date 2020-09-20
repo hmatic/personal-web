@@ -7,6 +7,7 @@ menu:
     weight: 20
 disableShare: true
 disableTimestamp: true
+disableComments: true
 ---
 
 # Skills & technologies:

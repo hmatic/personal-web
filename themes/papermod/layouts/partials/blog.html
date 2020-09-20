@@ -1,14 +1,20 @@
 {{- $current_page := .Page.Title }}
+{{- $blog_title := "Blog" }}
 <ul class="post-tags">
-  <li><h3>Categories:</h3></li>
+  <li>
+    <a class="category-link {{- if (eq $current_page $blog_title) }} active{{- end }}"
+       href="/blog/">
+       All
+    </a>
+  </li>
   {{ range .Site.Taxonomies.categories }}
-          <li>
-            <a
-            class="category-link {{- if (eq $current_page .Page.Title) }} active{{- end }}"
-            href="{{ .Page.Permalink }}">
-              {{ .Page.Title }}
-            </a>
-          </li>
+  <li>
+    <a
+    class="category-link {{- if (eq $current_page .Page.Title) }} active{{- end }}"
+    href="{{ .Page.Permalink }}">
+      {{ .Page.Title }}
+    </a>
+  </li>
   {{ end }}
 </ul>
 

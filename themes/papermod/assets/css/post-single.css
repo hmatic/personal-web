@@ -243,6 +243,10 @@
     margin-top: 56px;
 }
 
+.post-tags {
+  padding-inline-start: 0;
+}
+
 .post-tags li {
   margin-bottom: 30px;
 }
