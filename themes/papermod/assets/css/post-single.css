@@ -283,7 +283,7 @@
 .share-buttons {
     margin: 4px 0;
     text-align: center;
-    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 600px) {

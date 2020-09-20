@@ -3,11 +3,14 @@
   "languageCode": "en-us",
   "title": "H.M.",
   "theme": "papermod",
+  "googleAnalytics": "UA-178479367-1",
+  "disqusShortname": "hrvojematic",
   "taxonomies": {
     "category": "categories",
     "tag": "tags"
   },
   "params": {
+    "comments": true,
     "defaultTheme": "light",
     "HomeInfoParams": {
       "Title": "👋 Hi there",

@@ -2,7 +2,9 @@
 title: "About me"
 date: 2020-09-17T20:36:11+02:00
 draft: false
-menu: "main"
+menu:
+  main:
+    weight: 20
 disableShare: true
 disableTimestamp: true
 ---

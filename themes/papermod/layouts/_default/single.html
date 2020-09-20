@@ -25,6 +25,9 @@
     <img src="{{ .Params.cover | absURL }}" alt="cover image for {{ .Title | plainify }}">
   </figure>
   {{ end }}
+  {{ if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
+  {{ partial "share-icons.html" . }}
+  {{ end }}
   {{ if .Params.ShowToc }}
   <div class="toc">
     <details {{if .Params.TocOpen }} open{{ end }}>
@@ -48,9 +51,6 @@
       {{- end }}
     </ul>
     {{- end }}
-    {{ if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
-    {{ partial "share-icons.html" . }}
-    {{ end }}
   </footer>
 
   {{- if $.Site.Params.comments }}

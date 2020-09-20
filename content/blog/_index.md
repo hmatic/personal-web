@@ -1,4 +1,6 @@
 ---
 title: "Blog"
-menu: "main"
+menu:
+  main:
+    weight: 10
 ---
