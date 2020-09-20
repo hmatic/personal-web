@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Image / Tools we use / img-ktlint</title>
+    <defs>
+        <linearGradient x1="-16.836%" y1="91.94%" x2="76.2192%" y2="-1.116%" id="linearGradient-1">
+            <stop stop-color="#C757BC" offset="10.8%"></stop>
+            <stop stop-color="#CD5CA9" offset="17.3%"></stop>
+            <stop stop-color="#E8744F" offset="49.2%"></stop>
+            <stop stop-color="#F88316" offset="71.6%"></stop>
+            <stop stop-color="#FF8900" offset="82.3%"></stop>
+        </linearGradient>
+        <linearGradient x1="31.9144%" y1="71.6723718%" x2="77.2712%" y2="48.8930983%" id="linearGradient-2">
+            <stop stop-color="#00AFFF" offset="29.6%"></stop>
+            <stop stop-color="#5282FF" offset="69.4%"></stop>
+            <stop stop-color="#945DFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.6260369%" y1="52.2750345%" x2="59.9306592%" y2="-7.98951499%" id="linearGradient-3">
+            <stop stop-color="#00AFFF" offset="29.6%"></stop>
+            <stop stop-color="#5282FF" offset="69.4%"></stop>
+            <stop stop-color="#945DFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Image-/-Tools-we-use-/-img-ktlint" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="kotlin-1" transform="translate(8.000000, 8.000000)" fill-rule="nonzero">
+            <polygon id="Path" fill="url(#linearGradient-1)" points="26.107744 0 0 27.455584 0 52 26.070304 25.883936 52 0"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-2)" points="0 52 26.070304 25.884352 52 52"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-3)" points="0 0 26.107744 0 0 27.455584"></polygon>
+        </g>
+    </g>
+</svg>

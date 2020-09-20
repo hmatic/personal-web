@@ -1,0 +1,45 @@
+{
+  "baseURL": "http://hrvojematic.com/",
+  "languageCode": "en-us",
+  "title": "H.M.",
+  "theme": "papermod",
+  "taxonomies": {
+    "category": "categories",
+    "tag": "tags"
+  },
+  "params": {
+    "defaultTheme": "light",
+    "HomeInfoParams": {
+      "Title": "👋 Hi there",
+      "Content": "I'm software engineer working in fields of backend development, devops and security. I'm also interested in other parts of business, especially SaaS and marketing."
+    },
+    "ShowShareButtons": "true",
+    "ShowReadingTime": "true",
+    "SocialIcons": [
+      {
+        "name": "github",
+        "url": "https://github.com/hmatic"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/hmatic/"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/hmatic"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/hmatic/"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/hrvoje.matic.1"
+      },
+      {
+        "name": "stackoverflow",
+        "url": "https://stackoverflow.com/users/9945165/hrvoje-mati%c4%87"
+      }
+    ]
+  }
+}
