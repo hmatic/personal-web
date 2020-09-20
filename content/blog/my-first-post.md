@@ -1,8 +1,7 @@
 ---
 title: "My first post"
 date: 2020-09-19T19:58:26+02:00
-draft: true
-ShowToc: true
+draft: false
 cover: "/postheader2.jpg"
 categories:
 - "General"

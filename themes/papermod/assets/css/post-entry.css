@@ -108,6 +108,10 @@
     font-size: 1.4em;
 }
 
+.social-icons a:hover {
+  color: #FF8C00;
+}
+
 .post-list-img {
   height: 250px;
 }

@@ -66,6 +66,10 @@
     box-shadow: 0 1px 0 var(--primary);
 }
 
+.post-content a:hover {
+  color: #FF8C00;
+}
+
 .post-content a code {
     margin-left: 0;
     margin-right: 0;

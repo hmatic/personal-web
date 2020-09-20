@@ -1,5 +1,11 @@
 /* Header
 -------------------------------------------------- */
+
+.header {
+  background: black;
+  box-shadow: 0px 1px 10px 2px #888;
+}
+
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -10,6 +16,7 @@
 }
 
 .nav a {
+    color: white;
     display: block;
     line-height: var(--header-height);
 }
@@ -21,6 +28,7 @@
 }
 
 .logo a {
+    color: white;
     font-size: 24px;
     font-weight: 700;
 }
